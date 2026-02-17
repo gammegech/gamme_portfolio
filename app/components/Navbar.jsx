@@ -30,9 +30,9 @@ const Navbar = () => {
       >
         <a href="#top">
           <Image
-            src={assets.logo}
+            src={assets.logo_dark1}
             alt=""
-            className="w-28 cursor-pointer mr-14"
+            className="w-50 cursor-pointer mr-14"
           />
         </a>
         <ul
@@ -65,13 +65,13 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
+          {/* <button>
             <Image src={assets.moon_icon} alt="" className="w-6" />
-          </button>
+          </button> */}
 
           <a
             href="#contact"
-            className=" lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo"
+            className={`hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo`}
           >
             Contact <Image src={assets.arrow_icon} alt="" className="w-3" />
           </a>

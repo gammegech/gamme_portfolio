@@ -7,7 +7,7 @@ const Works = () => {
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-light">My portfolio</h4>
       <h1 className="text-center text-5xl font-light">My latest work</h1>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-light">
+      <p className="max-w-2xl mx-auto mt-5 mb-12 font-serif">
         welcome to my web development porfolio, Explore a collection of projects
         that showcase my skills and expertise in web development. From
         responsice websites to interactive web applications, each project

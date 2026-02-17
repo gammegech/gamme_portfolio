@@ -7,8 +7,8 @@ const About = () => {
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-light">Introduction</h4>
       <h2 className="text-center text-5xl font-light ">About Me</h2>
-      <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
-        <div className="w-64 sm:w-100 rounded-3xl max-w-none">
+      <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-6">
+        <div className="w-50 sm:w-100 rounded-3xl max-w-none">
           <Image
             src={assets.profile_img}
             alt="user"
@@ -16,20 +16,18 @@ const About = () => {
           />
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-1xl font-light">
-            I a'm an experienced software developer with a strong background in
-            building scalable web applications using modern technologies.
-            throughout my career, i have worked on diverse projects involving
-            full-stack development, database design, and user experience
-            optimization. I am passionate about creating efficient and
-            user-friendly applications that solve real-world problems. with a
-            commitment to continuous learning and staying up-to-date with
-            industry trends, i strive to deliver high-quality solutions that
-            meet client needs and exceed expectations. I am a collaborative team
-            player who enjoys working in dynamic environments and contributing
-            to the success of projects. I am excited to bring my skills and
-            expertise to new challenges and opportunities in the field of
-            software development.
+          <p className="mb-10 max-w-2xl font-serif">
+            Hello, I’m Gemechu Getachow, a Software Developer and Data Science
+            student with over 8+ years of experience in web development and
+            data management systems. I specialize in building modern, responsive
+            web applications using React, Next.js, and Tailwind CSS, as well as
+            designing and managing reliable data systems. I have strong
+            experience in data collection, cleaning, migration, and database
+            management, ensuring data accuracy and efficiency. I enjoy solving
+            problems, learning new technologies, and using technology to create
+            practical, real-world solutions. Currently, I am pursuing a Master’s
+            degree in Data Science and working toward becoming a highly skilled
+            and innovative tech professional.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             {infoList.map(({ icon, iconDark, title, description }, index) => (
@@ -46,7 +44,10 @@ const About = () => {
           <h4 className="my-6 text-gray-700 font-light">Tools I Use</h4>
           <ul className="flex items-center gap-3 sm:gap-5">
             {toolsData.map((tool, index) => (
-              <li className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:translate-y-1 duration-500" key={index}>
+              <li
+                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:translate-y-1 duration-500"
+                key={index}
+              >
                 <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
               </li>
             ))}
