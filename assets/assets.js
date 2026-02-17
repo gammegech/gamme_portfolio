@@ -135,13 +135,13 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript, React Js, Next Js, Express Js, Power BI, Python, R, SQL, Stata, SPSS, Tableau, Git",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "BSc in Software Engineering, Haramaya University, Ethiopia. ",
   },
   {
     icon: assets.project_icon,

@@ -9,7 +9,7 @@ const Services = () => {
       <h1 className="text-center text-5xl font-light">My Services</h1>
       <p className="max-w-2xl mx-auto mt-5 mb-12 font-serif">
         I provide specialized software development and data management solutions
-        for academic and research environments. With over six years of
+        for academic and research environments. With over eight years of
         experience at Addis Ababa University and ethiopian public health
         institute, I offer expertise in:
         <br />
